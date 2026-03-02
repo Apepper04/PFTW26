@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  font-family: Georgia, 'Times New Roman', serif;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #ef233c;
+  margin-bottom: 30px;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+li {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
