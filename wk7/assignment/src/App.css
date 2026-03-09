@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f5f0eb;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #3a506b;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #555;
+}
+
+.key {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 0 20px 0;
+  color: #666;
+}
+
+.solo-label {
+  color: #1b6ca8;
+  font-weight: 700;
+}
+
+.game-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 2px solid #3a506b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.game-table thead {
+  background-color: #3a506b;
+}
+
+.game-table th {
+  padding: 16px 12px;
+  font-size: 1rem;
+  color: #f5f0eb;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.game-table td {
+  padding: 14px 12px;
+  text-align: center;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.game-table td:first-child {
+  font-weight: 700;
+  color: #3a506b;
+}
+
+.desc-col {
+  width: 35%;
+}
+
+.game-table td:nth-child(5) {
+  text-align: left;
+}
+
+.game-table img {
+  width: 200px;
+  border-radius: 8px;
+}
