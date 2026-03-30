@@ -1,0 +1,91 @@
+.gameCard {
+  width: 100%;
+  max-width: 270px;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.gameCard.solo {
+  border-color: #1b6ca8;
+  background-color: #eef6fc;
+}
+
+.solo-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1b6ca8;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.cardImage img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #3a506b;
+  margin: 10px 0 6px;
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #777;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #444;
+  text-align: left;
+  margin: 0 0 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #f0ece6;
+  transition: background-color 0.2s;
+}
+
+.actions a:hover {
+  background-color: #d6eaf8;
+}
+
+.actions a img {
+  width: 20px;
+  height: 20px;
+}
