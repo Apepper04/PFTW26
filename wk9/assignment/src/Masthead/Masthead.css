@@ -1,0 +1,35 @@
+.masthead {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto 30px;
+}
+
+.masthead h1 {
+  font-size: 2.6rem;
+  color: #3a506b;
+  margin: 0 0 8px;
+}
+
+.masthead p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0 0 12px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.solo-badge {
+  background-color: #d6eaf8;
+  color: #1b6ca8;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
