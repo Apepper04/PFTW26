@@ -1,0 +1,13 @@
+img {
+  max-width: 30rem;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.back-link {
+  display: block;
+  font-size: 1.3rem;
+  margin: 2rem;
+  color: #0d9488;
+}

@@ -1,0 +1,15 @@
+.song-spacing {
+  margin: 0.25rem;
+}
+
+.song-spacing a {
+  font-size: large;
+  font-weight: bold;
+  margin: 0.25rem;
+  color: #0d9488;
+  text-decoration: none;
+}
+
+.song-spacing a:hover {
+  text-decoration: underline;
+}
