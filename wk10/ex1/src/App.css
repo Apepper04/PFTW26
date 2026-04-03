@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 30rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #475569;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  color: #0f172a;
+}
+
+nav a.active {
+  background-color: #0d9488;
+  color: #fff;
+}
