@@ -40,8 +40,16 @@
 .cardTitle {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #3a506b;
   margin: 10px 0 6px;
+}
+
+.cardTitle a {
+  color: #3a506b;
+  text-decoration: none;
+}
+
+.cardTitle a:hover {
+  text-decoration: underline;
 }
 
 .cardDetails {

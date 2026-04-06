@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./ItemCard.css";
 import trash from "../assets/icons/trash.svg";
 import copy from "../assets/icons/copy.svg";
@@ -21,7 +22,9 @@ export default function ItemCard({
       <div className="cardImage">
         <img src={image} alt={name} />
       </div>
-      <div className="cardTitle">{name}</div>
+      <div className="cardTitle">
+        <Link to={`${id}`}>{name}</Link>
+      </div>
       <div className="cardDetails">
         <span>{players} players</span>
         <span>{playTime}</span>
