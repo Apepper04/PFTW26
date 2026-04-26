@@ -54,9 +54,9 @@ function setup() {
 
   // Create five aurora curtains with different speeds and colors
   curtains.push(new AuroraCurtain(80, 0.003, 0));
-  curtains.push(new AuroraCurtain(110, 0.007, 1));
-  curtains.push(new AuroraCurtain(60, 0.002, 2));
-  curtains.push(new AuroraCurtain(140, 0.006, 0));
+  curtains.push(new AuroraCurtain(110, 0.009, 1));
+  curtains.push(new AuroraCurtain(60, 0.005, 2));
+  curtains.push(new AuroraCurtain(140, 0.007, 0));
   curtains.push(new AuroraCurtain(100, 0.001, 1));
 
   // Generate random star positions
